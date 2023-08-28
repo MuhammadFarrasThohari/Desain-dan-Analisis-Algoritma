@@ -1,0 +1,8 @@
+Algoritma:
+    -   Algoritma:
+    -   Buat 3 variabel yakni Panjang, Tinggi, dan Luas
+    -   Masukkan nilai Panjang yakni 5
+    -   Masukkan nilai Tinggi yakni 3
+    -   Masukkan nilai Luas dengan operasi Alas*Tinggi
+    -   Cetak nilai Luas
+
