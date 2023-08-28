@@ -6,3 +6,10 @@ Algoritma:
     -   Masukkan nilai Luas dengan operasi Alas*Tinggi
     -   Cetak nilai Luas
 
+Pseudocode:
+
+    Panjang = 5
+    Tinggi = 3
+    Luas = Alas*Tinggi
+
+    print(Luas)

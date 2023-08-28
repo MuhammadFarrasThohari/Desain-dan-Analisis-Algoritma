@@ -1,0 +1,14 @@
+Algoritma: 
+    -   Buat 3 variabel yakni JariJari, Tinggi, dan Volume
+    -   Masukkan nilai JariJari yakni 3
+    -   Masukkan nilai Tinggi yakni 5
+    -   Masukkan nilai Volume dengan operasi 3.14*JariJari**2*Tinggi
+    -   Cetak nilai Volume
+
+Pseudocode
+
+JariJari = 3
+Tinggi = 5
+Volume = 3.14*3**2*5
+
+print(Volume)

@@ -1,0 +1,14 @@
+Algoritma:
+    -   Buat 3 variabel yakni Alas, Tinggi, dan Luas
+    -   Masukkan nilai Alas yakni 25
+    -   Masukkan nilai Tinggi yakni 30
+    -   Masukkan nilai Luas dengan operasi Alas*Tinggi/2
+    -   Cetak nilai Luas
+
+Pseudocode:
+
+Alas = 25
+Tinggi = 30
+Luas = Alas * Tinggi / 2
+
+print(Luas)
