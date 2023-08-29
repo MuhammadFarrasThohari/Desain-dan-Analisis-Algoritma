@@ -1,0 +1,26 @@
+Algoritma:
+    -   Pilih 2 bilangan yang akan dicari KPKnya, dalam kasus ini 3 dan 4
+    -   Bandingkan kedua bilangan tersebut dan cari mana yang lebih besar
+    -   Hitung kelipatan pertama dari bilangan yang lebih besar 
+    -   bagi hasil kelipatan dengan bilangan yang satunya
+    -   Jika hasil bagi tidak ada sisa, cetak bilangan kelipatan tersebut
+    -   Jika tidak cari kelipatan berikutnya dari bilangan yang lebih besar, ulangi hingga kelipatan bisa dibagi habis oleh bilangan yang kecil
+
+
+
+Pseudocode:
+
+x = 3
+y = 4
+n = 1
+
+if x < y
+    temp = x
+    x = y
+    y = temp
+kelipatan = x * n
+while kelipatan % y != 0
+        kelipatan = x * n
+        n = + 1
+    if kelipatan % y = 0
+        print x

@@ -1,0 +1,15 @@
+Algoritma:
+    -   Buat 4 variabel yakni Diameter, Tinggi, JariJari, dan Volume
+    -   Masukkan nilai Diameter yakni 5
+    -   Masukkan nilai Tinggi yakni 4
+    -   Masukkan nilai JariJari dengan operasi Diameter/2
+    -   Masukkan nilai Volume dengan operasi 1/3*3.14*JariJari**2*Tinggi
+    -   Cetak nilai Volume
+
+Pseudocode:
+Diameter = 5
+Tinggi = 4
+JariJari = Diameter/2
+Volume = 1/3*3.14*JariJari**2*Tinggi
+
+print(Volume)

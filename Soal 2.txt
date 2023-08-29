@@ -1,0 +1,18 @@
+Algoritma:
+    -   Buat 3 variabel contoh = buah1, buah2, PiringKosong
+    -   isi variabel buah1 dan buah2 dengan nama buah pada kasus ini manggis dan pisang
+    -   taruh nilai buah1 di variabel PiringKosong
+    -   timpa nilai buah2 ke buah1
+    -   timpa nilai PiringKosong ke buah 1
+
+Pseudocode:
+
+buah1 = "manggis"
+buah2 = "pisang"
+PiringKosong = ""
+print(buah1, buah2)
+PiringKosong = buah1
+buah1 = buah2
+buah2 = PiringKosong
+print(buah1, buah2)
+
