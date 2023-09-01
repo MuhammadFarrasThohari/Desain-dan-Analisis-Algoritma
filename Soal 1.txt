@@ -21,6 +21,6 @@ if x < y
 kelipatan = x * n
 while kelipatan % y != 0
         kelipatan = x * n
-        n = + 1
+        n = n + 1
     if kelipatan % y = 0
         print x
