@@ -8,7 +8,7 @@ Algoritma:
 
 Pseudocode:
 
-    Panjang = 5
+    Alas = 5
     Tinggi = 3
     Luas = Alas*Tinggi
 
