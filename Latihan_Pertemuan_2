@@ -1,0 +1,326 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNj5JOB94HQ7ECyVHfU1m0y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MuhammadFarrasThohari/Desain-dan-Analisis-Algoritma/blob/master/Latihan_Pertemuan_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 42,
+      "metadata": {
+        "id": "Lis566dy3N69"
+      },
+      "outputs": [],
+      "source": [
+        "import numpy as np"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = [1,2,3]\n",
+        "b = [4,5,6]\n",
+        "\n",
+        "hasil = a+b\n",
+        "\n",
+        "print(hasil)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cuX5c2SF3f9i",
+        "outputId": "e8444b2f-b7a9-464c-b808-dfdd1205d275"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5, 6]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add(a, b):\n",
+        "  result = []\n",
+        "  for first, second in zip(a, b):\n",
+        "    result.append(first + second)\n",
+        "  return result\n",
+        "\n",
+        "print(add(a, b))"
+      ],
+      "metadata": {
+        "id": "sR5ymL133xgV",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "263be68d-1b76-49f2-86de-533197b3089d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[5, 7, 9]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nilai_siswa = np.array([85, 55, 40, 90])\n",
+        "print(nilai_siswa[3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IgR_flrd-m_p",
+        "outputId": "5de6ecae-514f-437d-f16f-54c9c9ec6eac"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "90\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(np.__version__)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W7bbFcImAotz",
+        "outputId": "cc460352-0630-426b-84c2-07c4233145da"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1.23.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Test\n",
+        "## Test"
+      ],
+      "metadata": {
+        "id": "LSOflUN7DeKI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hello Dunia\")\n",
+        "print(\"Nama saua (isi nama)\")\n",
+        "print(\"NIM saya (isi NIM)\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hYbnKOsID7iC",
+        "outputId": "bad2829e-c904-4826-fbbf-b25c04d64e8a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello Dunia\n",
+            "Nama saua (isi nama)\n",
+            "NIM saya (isi NIM)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 5>2\n",
+        "  print(\"Five is greater than 5\")"
+      ],
+      "metadata": {
+        "id": "_eMXf9YwFQ_c"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 5\n",
+        "y = 'john'\n",
+        "\n",
+        "print(x)\n",
+        "print(y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3-rvDPYZFZZ6",
+        "outputId": "2c345cf3-9e05-4663-96a8-aaad0865ff65"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "john\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 4\n",
+        "x = 'Sally'\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fxjbCygTFspS",
+        "outputId": "61f876a2-b5c1-4d04-cb60-10826ed37432"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sally\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def getfirst(mylist):\n",
+        "  return (mylist[0])\n",
+        "\n",
+        "print(getfirst([1,2,3]))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2xrSBPsFJNVb",
+        "outputId": "4e69f241-5a99-4a5d-f1d3-21b9e6942ae2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def getsecond(mylist):\n",
+        "  return (mylist[1])\n",
+        "\n",
+        "print(getsecond([1,2,3]))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rwiU-JJvLnwl",
+        "outputId": "ee14bfc0-d40c-43b8-b27c-ab81f08ae9a1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def getlast(mylist):\n",
+        "  index = len(mylist) -1\n",
+        "  return mylist[index]\n",
+        "\n",
+        "print(getlast([1,2,3]))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "t8tbYjJbKKGK",
+        "outputId": "85463b1a-31ca-4880-a965-bffcbf8fda6f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
