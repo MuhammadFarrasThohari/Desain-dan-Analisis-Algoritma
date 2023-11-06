@@ -24,3 +24,5 @@ while kelipatan % y != 0
         n = n + 1
     if kelipatan % y = 0
         print x
+
+Test
